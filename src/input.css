@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Barlow;
+}
+.h-hero {
+  height: 600px;
+}
+.h-services {
+  height: 600px;
+}
+.h-white {
+  height: 600px;
+}
+.max-w-test {
+  max-width: 20%;
+}
+.h-gallery {
+  height: 400px;
+}
+.hMenu {
+  width: 90%;
+  top: 120px;
+  left: 20px;
+  right: 20px;
+}
+.show {
+  display: flex;
+}
+.h-oc {
+  height: 600px;
+}
+.fraunces {
+  font-family: Fraunces;
+}
+.barlow {
+  font-family: Barlow;
+}
+.heading {
+  font-family: Fraunces;
+  font-weight: 900;
+}
+.icon:hover {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .h-services {
+    height: 400px;
+  }
+  .h-gallery {
+    height: 190px;
+  }
+}
