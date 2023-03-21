@@ -664,39 +664,39 @@ video {
 }
 
 .bg-cherryMobile {
-  background-image: url('./images/mobile/image-graphic-design.jpg');
+  background-image: url('../images/mobile/image-graphic-design.jpg');
 }
 
 .bg-coneMobile {
-  background-image: url('./images/mobile/image-gallery-cone.jpg');
+  background-image: url('../images/mobile/image-gallery-cone.jpg');
 }
 
 .bg-cupMobile {
-  background-image: url('./images/mobile/image-stand-out.jpg');
+  background-image: url('../images/mobile/image-stand-out.jpg');
 }
 
 .bg-eggMobile {
-  background-image: url('./images/mobile/image-transform.jpg');
+  background-image: url('../images/mobile/image-transform.jpg');
 }
 
 .bg-heroMobile {
-  background-image: url('./images/mobile/image-header.jpg');
+  background-image: url('../images/mobile/image-header.jpg');
 }
 
 .bg-milkBottlesMobile {
-  background-image: url('./images/mobile/image-gallery-milkbottles.jpg');
+  background-image: url('../images/mobile/image-gallery-milkbottles.jpg');
 }
 
 .bg-orangeMobile {
-  background-image: url('./images/mobile/image-photography.jpg');
+  background-image: url('../images/mobile/image-photography.jpg');
 }
 
 .bg-orangeSliceMobile {
-  background-image: url('./images/mobile/image-gallery-orange.jpg');
+  background-image: url('../images/mobile/image-gallery-orange.jpg');
 }
 
 .bg-sugarCubesMobile {
-  background-image: url('./images/mobile/image-gallery-sugar-cubes.jpg');
+  background-image: url('../images/mobile/image-gallery-sugar-cubes.jpg');
 }
 
 .bg-cover {
@@ -920,7 +920,7 @@ body {
   color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
 
-@media (min-width: 900px) {
+@media (min-width: 769px) {
   .lg\:flex {
     display: flex;
   }
@@ -956,39 +956,39 @@ body {
   }
 
   .lg\:bg-cherry {
-    background-image: url('./images/desktop/image-graphic-design.jpg');
+    background-image: url('../images/desktop/image-graphic-design.jpg');
   }
 
   .lg\:bg-cone {
-    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-image: url('../images/desktop/image-gallery-cone.jpg');
   }
 
   .lg\:bg-cup {
-    background-image: url('./images/desktop/image-stand-out.jpg');
+    background-image: url('../images/desktop/image-stand-out.jpg');
   }
 
   .lg\:bg-egg {
-    background-image: url('./images/desktop/image-transform.jpg');
+    background-image: url('../images/desktop/image-transform.jpg');
   }
 
   .lg\:bg-hero {
-    background-image: url('./images/desktop/image-header.jpg');
+    background-image: url('../images/desktop/image-header.jpg');
   }
 
   .lg\:bg-milkBottles {
-    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
   }
 
   .lg\:bg-orange {
-    background-image: url('./images/desktop/image-photography.jpg');
+    background-image: url('../images/desktop/image-photography.jpg');
   }
 
   .lg\:bg-orangeSlice {
-    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-image: url('../images/desktop/image-gallery-orange.jpg');
   }
 
   .lg\:bg-sugarCubes {
-    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
   }
 
   .lg\:p-28 {

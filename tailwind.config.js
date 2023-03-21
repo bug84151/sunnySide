@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*.html"],
+  content: ["./*.html"],
   theme: {
     screens: {
-      sm: "700px",
-      lg: "900px",
+      sm: "360px",
+      lg: "769px",
     },
     letterSpacing: {
       wide: "0.3em",
@@ -28,25 +28,26 @@ module.exports = {
     },
     backgroundImage: {
       // Desktop
-      hero: "url('./images/desktop/image-header.jpg')",
-      egg: "url('./images/desktop/image-transform.jpg')",
-      cup: "url('./images/desktop/image-stand-out.jpg')",
-      cherry: "url('./images/desktop/image-graphic-design.jpg')",
-      orange: "url('./images/desktop/image-photography.jpg')",
-      cone: "url('./images/desktop/image-gallery-cone.jpg')",
-      milkBottles: "url('./images/desktop/image-gallery-milkbottles.jpg')",
-      orangeSlice: "url('./images/desktop/image-gallery-orange.jpg')",
-      sugarCubes: "url('./images/desktop/image-gallery-sugarcubes.jpg')",
+      hero: "url('../images/desktop/image-header.jpg')",
+      egg: "url('../images/desktop/image-transform.jpg')",
+      cup: "url('../images/desktop/image-stand-out.jpg')",
+      cherry: "url('../images/desktop/image-graphic-design.jpg')",
+      orange: "url('../images/desktop/image-photography.jpg')",
+      cone: "url('../images/desktop/image-gallery-cone.jpg')",
+      milkBottles: "url('../images/desktop/image-gallery-milkbottles.jpg')",
+      orangeSlice: "url('../images/desktop/image-gallery-orange.jpg')",
+      sugarCubes: "url('../images/desktop/image-gallery-sugarcubes.jpg')",
       // Mobile
-      heroMobile: "url('./images/mobile/image-header.jpg')",
-      eggMobile: "url('./images/mobile/image-transform.jpg')",
-      cupMobile: "url('./images/mobile/image-stand-out.jpg')",
-      cherryMobile: "url('./images/mobile/image-graphic-design.jpg')",
-      orangeMobile: "url('./images/mobile/image-photography.jpg')",
-      coneMobile: "url('./images/mobile/image-gallery-cone.jpg')",
-      milkBottlesMobile: "url('./images/mobile/image-gallery-milkbottles.jpg')",
-      orangeSliceMobile: "url('./images/mobile/image-gallery-orange.jpg')",
-      sugarCubesMobile: "url('./images/mobile/image-gallery-sugar-cubes.jpg')",
+      heroMobile: "url('../images/mobile/image-header.jpg')",
+      eggMobile: "url('../images/mobile/image-transform.jpg')",
+      cupMobile: "url('../images/mobile/image-stand-out.jpg')",
+      cherryMobile: "url('../images/mobile/image-graphic-design.jpg')",
+      orangeMobile: "url('../images/mobile/image-photography.jpg')",
+      coneMobile: "url('../images/mobile/image-gallery-cone.jpg')",
+      milkBottlesMobile:
+        "url('../images/mobile/image-gallery-milkbottles.jpg')",
+      orangeSliceMobile: "url('../images/mobile/image-gallery-orange.jpg')",
+      sugarCubesMobile: "url('../images/mobile/image-gallery-sugar-cubes.jpg')",
     },
     extend: {},
   },
